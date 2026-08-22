@@ -1,0 +1,15 @@
+sets.exported = {
+    main="Kaja Sword",
+    range="Homestead Gun",
+    ammo="Bullet",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +2",
+    feet="Meg. Jam. +2",
+    left_ear="Mache Earring +1",
+    right_ear="Mache Earring +1",
+    left_ring="Meghanada Ring",
+    right_ring="Chirich Ring",
+    back={ name="Camulus's Mantle", augments={'STR+20','Accuracy+17 Attack+17',}},
+}

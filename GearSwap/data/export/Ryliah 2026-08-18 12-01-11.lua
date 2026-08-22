@@ -1,0 +1,15 @@
+sets.exported = {
+    main="Kaja Sword",
+    range="Compensator",
+    ammo="Silt Pouch",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +2",
+    feet="Meg. Jam. +2",
+    left_ear="Mache Earring +1",
+    right_ear="Mache Earring +1",
+    left_ring="Warp Ring",
+    right_ring="Chirich Ring",
+    back="Aptitude Mantle +1",
+}
