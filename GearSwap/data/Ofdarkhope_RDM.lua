@@ -1,9 +1,12 @@
 -- Includes
 include('Ofdarkhope_RDM_SelfCommands.lua')
 include('Ofdarkhope_RDM_Binds.lua')
+include('Universal_Binds.lua')
 
 -- Set macro book to RDM
 windower.send_command('input /macro book 3')
+local num = math.random(1, 3)
+windower.send_command('input /lockstyleset '..tostring(num))
 
 self_spell_maps = {
 	['Cure']='selfcure',['Cure II']='selfcure',['Cure III']='selfcure',['Cure IV']='selfcure',['Cure V']='selfcure',['Cure VI']='selfcure', ['Full Cure']='selfcure',

@@ -1,3 +1,7 @@
+-- Includes
+--include('Universal_Self_Commands.lua')
+include('Universal_Binds.lua')
+
 windower.send_command('input /macro book 4')
 
 function get_sets()
@@ -12,12 +16,10 @@ function get_sets()
 	sets.ja = {}			-- leave this empty
 	
 	sets.precast.fast = {
-		main="Naegling",
-		sub={ name="Thibron", augments={'TP Bonus +1000',}},
 		ammo="Mantoptera Eye",
 		head={ name="Herculean Helm", augments={'Mag. Acc.+14 "Mag.Atk.Bns."+14','Magic burst dmg.+2%','MND+5','Mag. Acc.+2','"Mag.Atk.Bns."+12',}},
-		body="Hashishin Mintan +1",
-		hands="Hashi. Bazu. +1",
+		body="Hashishin Mintan +2",
+		hands="Hashi. Bazu. +2",
 		legs="Aya. Cosciales +2",
 		feet="Malignance Boots",
 		neck="Sanctity Necklace",
@@ -30,8 +32,6 @@ function get_sets()
 	}
 	
 	sets.midcast.nuke = {
-		main="Naegling",
-		sub={ name="Thibron", augments={'TP Bonus +1000',}},
 		ammo="Ghastly Tathlum",
 		head="Hashishin Kavuk +2",
 		body="Jhakri Robe +2",
@@ -57,11 +57,11 @@ function get_sets()
 		legs="Malignance Tights",
 		feet="Malignance Boots",
 		neck="Sanctity Necklace",
-		waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+		waist="Sailfi Belt +1",
 		left_ear="Suppanomimi",
 		right_ear="Eabani Earring",
-		left_ring="Rajas Ring",
-		right_ring="Defending Ring",
+		left_ring="Chirich Ring",
+		right_ring="Chirich Ring",
 		back={ name="Mecisto. Mantle", augments={'Cap. Point+40%','DEF+1',}},
 	}
 	

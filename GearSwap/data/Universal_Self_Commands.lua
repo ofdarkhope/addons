@@ -1,7 +1,3 @@
--- Automation Modes
-Auto_BRD = M{'Off', 'On'}
-Alt_BRD_BuffMode = M{'Atk&Spd', 'MP', 'Def&Regen'}
-
 function get_mobs()
 	local max_distance = 30
     local mobs = {}
@@ -23,7 +19,7 @@ function get_mobs()
         end
     end
 	
-	-- Need to make fuckers run to the target, might be able to achieve via individual gearswap files?
+	-- Need to make run to the target, might be able to achieve via individual gearswap files?
 	windower.send_command('input //send mightywar /targetbnpc; wait 1; send mightywar /lockon; wait 1; send mightywar /attack')
     
     return mobs

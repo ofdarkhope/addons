@@ -1,0 +1,30 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <server>asura</server>
+    </global>
+    <atticusreid>
+        <server>asura</server>
+    </atticusreid>
+    <emerilese>
+        <server>asura</server>
+    </emerilese>
+    <jenovah>
+        <server>asura</server>
+    </jenovah>
+    <justsavage>
+        <server>asura</server>
+    </justsavage>
+    <ladilydia>
+        <server>asura</server>
+    </ladilydia>
+    <ofdarkhope>
+        <server>asura</server>
+    </ofdarkhope>
+    <oflighthope>
+        <server>asura</server>
+    </oflighthope>
+    <seabastian>
+        <server>asura</server>
+    </seabastian>
+</settings>

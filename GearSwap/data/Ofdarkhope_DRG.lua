@@ -2,9 +2,8 @@
 --include('Universal_Self_Commands.lua')
 include('Universal_Binds.lua')
 
-local num = math.random(4, 6)
-
 windower.send_command('input /macro book 5')
+local num = math.random(4, 6)
 windower.send_command('input /lockstyleset '..tostring(num))
 
 function get_sets()
@@ -83,15 +82,17 @@ function get_sets()
 	}
 	
 	sets.ws["Impulse Drive"] = {
+		main="Shining One",
+		sub="Tzacab Grip",
 		ammo="Knobkierrie",
-		head="Blistering Sallet +1",
-		body="Flamma Korazin +2",
-		hands="Flam. Manopolas +2",
+		head="Nyame Helm",
+		body="Pelt. Plackart +2",
+		hands="Nyame Gauntlets",
 		legs="Pelt. Cuissots +2",
 		feet="Sulev. Leggings +2",
-		neck="Sanctity Necklace",
+		neck={ name="Dgn. Collar +1", augments={'Path: A',}},
 		waist="Fotia Belt",
-		left_ear="Ishvara Earring",
+		left_ear="Moonshade Earring",
 		right_ear={ name="Pel. Earring +1", augments={'System: 1 ID: 1676 Val: 0','Accuracy+11','Mag. Acc.+11','Crit.hit rate+3',}},
 		left_ring="Karieyh Ring +1",
 		right_ring="Cho'j Band",
